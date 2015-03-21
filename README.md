@@ -3,7 +3,7 @@ A JavaScript Hack for http://106.186.25.143/kuku-kube/en-3/
 
 Run this script in a browser's console and start the game.
 
-<code>
+```javascript
 var ping = function() {
   var cells = $("#box > span").get();
   for (var i = 0; i < cells.length - 1; i++) {
@@ -21,6 +21,6 @@ setInterval(function(){
   for (var i = 0; i < accel_factor; i++)
       ping(); 
 }, 1);
-</code>
+```
 
 You can accelerate the speed by increasing accel_factor variable.
