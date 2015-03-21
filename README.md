@@ -9,7 +9,7 @@ var ping = function() {
   for (var i = 0; i < cells.length - 1; i++) {
     if (cells[i].style.background != cells[i + 1].style.background) {
       $(cells[i + 1]).click();
-      if (i == 0) { // for simplicity, just click both cells
+      if (i == 0) {
         $(cells[i]).click();
       }
       break;
@@ -23,4 +23,4 @@ setInterval(function(){
 }, 1);
 ```
 
-You can accelerate the speed by increasing accel_factor variable.
+You can accelerate the speed by increasing the `accel_factor` variable.
