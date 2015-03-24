@@ -1,5 +1,5 @@
-# Kuku-kube-hack
-A JavaScript Hack for http://106.186.25.143/kuku-kube/en-3/
+# Kuku-kube Hack Bot
+A JavaScript Hack Bot for http://kuku-kube.com
 
 Run this script in a browser's console and start the game.
 
